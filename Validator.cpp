@@ -98,6 +98,6 @@ void safeInput(char arr[], int maxChar)
 
         std::cin.clear();
         std::cin.ignore(1000, '\n');
-        std::cout << "输入过长，最多只能输入" << maxChar - 1 << "个字符，请重新输入：";
+        std::cout << "输入过长，最多只能输入" << maxChar - 1 << "个字符，请重新输入："; 
     }
 }

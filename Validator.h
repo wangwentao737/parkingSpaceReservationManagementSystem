@@ -10,5 +10,5 @@ public:
     static bool checkSpaceStatus(char status[]);
 };
 
-void safeInput(char in[], int maxChar); // °²È«¶ÁÈë
+void safeInput(char in[], int maxChar);
 #endif

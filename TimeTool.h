@@ -17,4 +17,5 @@ public:
     static long long charArrayToLongLong(char number[]);              // 将字符数组转换成long long
 };
 
+
 #endif

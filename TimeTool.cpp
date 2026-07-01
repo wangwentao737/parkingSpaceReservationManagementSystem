@@ -101,6 +101,7 @@ bool TimeTool::checkTimeFormat(char time[])
            checkTime.tm_min == minute;
 }
 
+
 void TimeTool::standardToStamp(char destination[], char resource[])
 {
     if (destination == nullptr)
