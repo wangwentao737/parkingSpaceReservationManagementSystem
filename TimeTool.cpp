@@ -53,7 +53,7 @@ bool TimeTool::isBeforeOneHour(char now[], char start[])
 
 bool TimeTool::isEndAfterStart(char start[], char end[])
 {
-    return charArrayToLongLong(end) > charArrayToLongLong(start);
+    return charArrayToLongLong(end) >= charArrayToLongLong(start);
 }
 
 bool TimeTool::checkTimeFormat(char time[])
@@ -100,7 +100,6 @@ bool TimeTool::checkTimeFormat(char time[])
            checkTime.tm_hour == hour &&
            checkTime.tm_min == minute;
 }
-
 
 void TimeTool::standardToStamp(char destination[], char resource[])
 {
